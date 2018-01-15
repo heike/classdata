@@ -1,0 +1,16 @@
+Package: classdata
+Version: 0.0.1
+Title: Data Used in Course Work
+Description: Data sets used for work in some of my ISU classes.
+Authors@R: 
+    person("Heike", "Hofmann", "", "hofmann@iastate.edu", c("aut", "cre"))
+Depends:
+    R (>= 3.1)
+License: GPL-2 | file LICENSE
+LazyData: true
+Collate: 
+    'data.R'
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
+Roxygen: list(markdown = TRUE)
+Encoding: UTF-8

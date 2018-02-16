@@ -13,6 +13,7 @@
 #'   \item{Count}{number of reported crimes.}
 #'   \item{Violent.crime}{logical value: is this crime against a person?.}
 #' }
+#' @keywords datasets
 "fbi"
 
 #' Numbers of crimes by state
@@ -37,6 +38,7 @@
 #'   \item{Larceny.theft}{number of reported larceny thefts.}
 #'   \item{Motor.vehicle.theft}{number of reported motor vehicle thefts.}
 #' }
+#' @keywords datasets
 "fbiwide"
 
 #' Numbers of crimes by city
@@ -61,6 +63,7 @@
 #'   \item{State}{name of the state for which numbers are reported.}
 #'   \item{Year}{year of the reporting.}
 #' }
+#' @keywords datasets
 "cities"
 
 
@@ -74,4 +77,35 @@
 #'   \item{Age}{Child/Adult. This information is not very reliable, because it was inferred from boarding documents that did not state actual age in years.}
 #'   \item{Survived}{Yes/No.}
 #' }
+#' @keywords datasets
 "Titanic"
+
+
+#' Data related to happiness from the general social survey.
+#'
+#' The data is a small sample of variables related to happiness from the
+#' general social survey (GSS). The GSS is a yearly cross-sectional survey of
+#' Americans, run since 1972. We combine data for 25 years to yield 51,020
+#' observations, and of the over 5,000 variables, we select some variables that are related to
+#' happiness:
+#'
+#' \itemize{
+#'  \item age. age in years: 18--89 (89 stands for all 89 year olds and older).
+#'  \item degree. highest education: lt high school, high school, junior
+#'     college, bachelor, graduate.
+#'  \item finrela. how is your financial status compared to others: far below, below average, average, above average, far above.
+#'  \item happy. happiness: very happy, pretty happy, not too happy.
+#'  \item health. health: excellent, good, fair, poor.
+#'  \item marital. marital status:  married, never married, divorced,
+#'    widowed, separated.
+#'  \item sex. sex: female, male.
+#'  \item polviews. from extremely conservative to extremely liberal.
+#'  \item partyid. party identification: strong republican, not str republican, ind near rep, independent, ind near dem, not str democrat, strong democrat, other party.
+#'  \item wtsall. probability weight. 0.39--8.74
+#' }
+#'
+#' @keywords datasets
+#' @name happy
+#' @usage data(happy)
+#' @format A data frame with 62466 rows and 11 variables
+"happy"

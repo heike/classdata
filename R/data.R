@@ -109,3 +109,27 @@
 #' @usage data(happy)
 #' @format A data frame with 62466 rows and 11 variables
 "happy"
+
+
+#' Box office data
+#'
+#' The data contains weekly box office numbers as published on the website https://www.the-numbers.com/weekly-box-office-chart
+#'
+#' \itemize{
+#'  \item Rank current rank of the movie according to gross box office
+#'  \item Rank.last.Week last week's ranking of box office gross
+#'  \item Movie name of the movie
+#'  \item Distributor name of the Distributor
+#'  \item Gross weekly box office gross in US dollars 
+#'  \item Change percent change in gross from last week
+#'  \item Thtrs. number of movie theaters the movie is being shown
+#'  \item Per.Thr. per theater gross
+#'  \item Total.Gross cumulative box office gross in US dollars 
+#'  \item Date date of the publication of box office numbers
+#' }
+#'
+#' @keywords datasets
+#' @name box
+#' @usage data(box)
+#' @format A data frame with 15287 rows and 11 variables
+"box"

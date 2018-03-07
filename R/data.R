@@ -133,3 +133,23 @@
 #' @usage data(box)
 #' @format A data frame with 15287 rows and 11 variables
 "box"
+
+
+#' Movie budget data
+#'
+#' The data contains movie budgets and box office gross for the 5000 top grossing movies (as of Mar 6 2018) published 
+#' on https://www.the-numbers.com/movie/budgets/all/1
+#'
+#' \itemize{
+#'  \item Release Date (date) 
+#'  \item Movie name of the movie
+#'  \item Production Budget (dbl) budget in US dollars 
+#'  \item Domestic Gross (dbl) in US dollars 
+#'  \item Worldwide Gross (dbl) in US dollars 
+#' }
+#'
+#' @keywords datasets
+#' @name budget
+#' @usage data(budget)
+#' @format A data frame with 5492 rows and 5 variables
+"budget"

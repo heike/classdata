@@ -26,7 +26,7 @@ college, bachelor, graduate.
 \item marital. marital status:  married, never married, divorced,
 widowed, separated.
 \item sex. sex: female, male.
-\item polviews.
+\item polviews. from extremely conservative to extremely liberal.
 \item partyid. party identification: strong republican, not str republican, ind near rep, independent, ind near dem, not str democrat, strong democrat, other party.
 \item wtsall. probability weight. 0.39--8.74
 }

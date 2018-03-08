@@ -131,7 +131,7 @@
 #' @keywords datasets
 #' @name box
 #' @usage data(box)
-#' @format A data frame with 15287 rows and 11 variables
+#' @format A data frame with 25181 rows and 11 variables
 "box"
 
 

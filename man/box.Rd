@@ -4,12 +4,12 @@
 \name{box}
 \alias{box}
 \title{Box office data}
-\format{A data frame with 15287 rows and 11 variables}
+\format{A data frame with 26157 rows and 11 variables}
 \usage{
 data(box)
 }
 \description{
-The data contains weekly box office numbers as published on the website https://www.the-numbers.com/weekly-box-office-chart
+The data contains weekly box office numbers as published on the website https://www.the-numbers.com/weekly-box-office-chart scraped on May 13.
 }
 \details{
 \itemize{

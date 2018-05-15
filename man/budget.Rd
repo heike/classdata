@@ -9,7 +9,7 @@
 data(budget)
 }
 \description{
-The data contains movie budgets and box office gross for the 5000 top grossing movies (as of Mar 6 2018) published
+The data contains movie budgets and box office gross for the 5000 top grossing movies (as of May 13 2018) published
 on https://www.the-numbers.com/movie/budgets/all/1
 }
 \details{

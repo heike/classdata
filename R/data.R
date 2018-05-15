@@ -151,5 +151,5 @@
 #' @keywords datasets
 #' @name budget
 #' @usage data(budget)
-#' @format A data frame with 5492 rows and 5 variables
+#' @format A data frame with 5524 rows and 5 variables
 "budget"

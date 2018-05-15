@@ -4,7 +4,7 @@
 \name{budget}
 \alias{budget}
 \title{Movie budget data}
-\format{A data frame with 5492 rows and 5 variables}
+\format{A data frame with 5524 rows and 5 variables}
 \usage{
 data(budget)
 }

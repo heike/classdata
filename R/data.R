@@ -5,7 +5,7 @@
 #' Since 2014 the data is only made available as part of Excel tables at \url{https://ucr.fbi.gov/crime-in-the-u.s/}.
 #' The variables are as follows (more detail on the FBI website):
 #'
-#' @format A data frame with 21992 rows and 7 variables:
+#' @format A data frame with 22840 rows and 7 variables:
 #' \describe{
 #'   \item{State}{name of the state for which numbers are reported.}
 #'   \item{Abb}{two letter state abbreviation. }
@@ -115,7 +115,9 @@
 
 #' Box office data
 #'
-#' The data contains weekly box office numbers as published on the website https://www.the-numbers.com/weekly-box-office-chart scraped on Aug 23 2018.
+#' The data contains weekly box office numbers as published on the website 
+#' https://www.the-numbers.com/weekly-box-office-chart scraped on 
+#' Sep 2 2018.
 #'
 #' \itemize{
 #'  \item Rank current rank of the movie according to gross box office
@@ -133,7 +135,7 @@
 #' @keywords datasets
 #' @name box
 #' @usage data(box)
-#' @format A data frame with 27499 rows and 11 variables
+#' @format A data frame with 27594 rows and 11 variables
 "box"
 
 

@@ -18,7 +18,9 @@
 fbi
 }
 \description{
-A dataset containing the number of property and violent crimes across the United States from 1960 to 2014.
-The data was made available by the FBI in the Uniform Crime Reporting Statistics (UCR) at \url{https://www.ucrdatatool.gov/index.cfm}. The variables are as follows (more detail on the FBI website):
+A dataset containing the number of property and violent crimes across the United States from 1960 to 2016.
+The data  from 1960 to 2014 was made available by the FBI in the Uniform Crime Reporting Statistics (UCR) at \url{https://www.ucrdatatool.gov/index.cfm}.
+Since 2014 the data is only made available as part of Excel tables at \url{https://ucr.fbi.gov/crime-in-the-u.s/}.
+The variables are as follows (more detail on the FBI website):
 }
 \keyword{datasets}

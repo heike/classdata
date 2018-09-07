@@ -4,7 +4,7 @@
 \name{fbiwide}
 \alias{fbiwide}
 \title{Numbers of crimes by state}
-\format{A data frame with 2749 rows and 14 variables:
+\format{A data frame with 2855 rows and 14 variables:
 \describe{
 \item{State}{name of the state for which numbers are reported.}
 \item{Abb}{two letter state abbreviation. }
@@ -25,7 +25,7 @@
 fbiwide
 }
 \description{
-A dataset containing the number of property and violent crimes across the United States from 1960 to 2014.
+A dataset containing the number of property and violent crimes across the United States from 1960 to 2016.
 The data was made available by the FBI in the Uniform Crime Reporting Statistics (UCR) at \url{https://www.ucrdatatool.gov/index.cfm}. The variables are as follows (more detail on the FBI website):
 }
 \keyword{datasets}

@@ -157,3 +157,34 @@
 #' @usage data(budget)
 #' @format A data frame with 5524 rows and 5 variables
 "budget"
+
+
+#' Box office data from the Mojo website
+#'
+#' The data contains weekly box office numbers as published on the website 
+#' https://www.boxofficemojo.com/weekend/chart/ scraped on 
+#' Sep 10 2018.
+#'
+#' \itemize{
+#'  \item TW rank this week
+#'  \item LW rank last week
+#'  \item Title name of the movie
+#'  \item Studio name of the producing studio
+#'  \item Weekend Gross weekend box office gross in US dollars 
+#'  \item % Change percent change in weekend gross from last week
+#'  \item Theater Count number of movie theaters the movie is being shown
+#'  \item Theater Change change in the number of theaters the movie was shown
+#'  \item Average average gross per theater 
+#'  \item Total Gross cumulative box office gross in US dollars 
+#'  \item Budget (in Million) estimated budget
+#'  \item Week week that the movie has been in theaters
+#'  \item Weekend character
+#'  \item Year integer 
+#'  \item WeekNo integer
+#' }
+#'
+#' @keywords datasets
+#' @name mojo
+#' @usage data(mojo)
+#' @format A data frame with 31718 rows and 15 variables.
+"mojo"

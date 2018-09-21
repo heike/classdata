@@ -169,16 +169,16 @@
 #'  \item Title name of the movie
 #'  \item Studio name of the producing studio
 #'  \item Weekend Gross weekend box office gross in US dollars 
-#'  \item % Change percent change in weekend gross from last week
+#'  \item `% Change`` percent change in weekend gross from last week
 #'  \item Theater Count number of movie theaters the movie is being shown
 #'  \item Theater Change change in the number of theaters the movie was shown
 #'  \item Average average gross per theater 
 #'  \item Total Gross cumulative box office gross in US dollars 
 #'  \item Budget (in Million) estimated budget
 #'  \item Week week that the movie has been in theaters
-#'  \item Weekend character
-#'  \item Year integer 
-#'  \item WeekNo integer
+#'  \item Weekend character string of the weekend of the show date
+#'  \item Year integer of the year of the show date (between 2013 and 2018)
+#'  \item WeekNo integer, week number of the year (1 through 52 or 53) 
 #' }
 #'
 #' @keywords datasets

@@ -4,7 +4,7 @@
 \name{fbiwide}
 \alias{fbiwide}
 \title{Numbers of crimes by state}
-\format{A data frame with 2855 rows and 14 variables:
+\format{A data frame with 2907 rows and 14 variables:
 \describe{
 \item{State}{name of the state for which numbers are reported.}
 \item{Abb}{two letter state abbreviation. }

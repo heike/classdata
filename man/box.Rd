@@ -23,7 +23,7 @@ Sep 2 2018.
 \item Change percent change in gross from last week
 \item Thtrs. number of movie theaters the movie is being shown
 \item Per.Thr. per theater gross
-\item Total.Gross cumulative box office gross in US dollars
+\item Total.Gross cumulative box office gross in 100 million US dollars
 \item Date date of the publication of box office numbers
 }
 }

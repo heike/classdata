@@ -11,7 +11,7 @@ data(happy)
 \description{
 The data is a small sample of variables related to happiness from the
 general social survey (GSS). The GSS is a yearly cross-sectional survey of
-Americans, run since 1972. We combine data for 25 years to yield 51,020
+Americans, run since 1972. We combine data for more than 25 years to yield over 60 thousand
 observations, and of the over 5,000 variables, we select some variables that are related to
 happiness:
 }
@@ -28,7 +28,7 @@ widowed, separated.
 \item sex. sex: female, male.
 \item polviews. from extremely conservative to extremely liberal.
 \item partyid. party identification: strong republican, not str republican, ind near rep, independent, ind near dem, not str democrat, strong democrat, other party.
-\item wtsall. probability weight. 0.39--8.74
+\item wtssall. probability weight. 0.39--8.74
 }
 }
 \keyword{datasets}

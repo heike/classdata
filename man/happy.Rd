@@ -17,6 +17,7 @@ happiness:
 }
 \details{
 \itemize{
+\item year. year of the response, 1972 to 2018.
 \item age. age in years: 18--89 (89 stands for all 89 year olds and older).
 \item degree. highest education: lt high school, high school, junior
 college, bachelor, graduate.

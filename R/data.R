@@ -5,7 +5,7 @@
 #' Since 2014 the data is only made available as part of Excel tables at \url{https://ucr.fbi.gov/crime-in-the-u.s/}.
 #' The variables are as follows (more detail on the FBI website):
 #'
-#' @format A data frame with 23256 rows and 7 variables:
+#' @format A data frame with 23672 rows and 7 variables:
 #' \describe{
 #'   \item{State}{name of the state for which numbers are reported.}
 #'   \item{Abb}{two letter state abbreviation. }
@@ -23,7 +23,7 @@
 #' A dataset containing the number of property and violent crimes across the United States from 1960 to 2016. 
 #' The data was made available by the FBI in the Uniform Crime Reporting Statistics (UCR) at \url{https://www.ucrdatatool.gov/index.cfm}. The variables are as follows (more detail on the FBI website):
 #'
-#' @format A data frame with 2907 rows and 14 variables:
+#' @format A data frame with 5918 rows and 12 variables:
 #' \describe{
 #'   \item{State}{name of the state for which numbers are reported.}
 #'   \item{Abb}{two letter state abbreviation. }

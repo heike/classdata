@@ -1,4 +1,7 @@
 ^.*\.Rproj$
-  ^\.Rproj\.user$
-  ^data-raw$
-  README.md
+^\.Rproj\.user$
+^data-raw$
+^README.md$
+^.*\.csv$
+^data-raw$
+

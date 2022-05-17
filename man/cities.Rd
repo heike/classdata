@@ -4,7 +4,8 @@
 \name{cities}
 \alias{cities}
 \title{Numbers of crimes by city}
-\format{A data frame with 1207 rows and 14 variables:
+\format{
+A data frame with 1207 rows and 14 variables:
 \describe{
 \item{City}{name of the city for which numbers are reported.}
 \item{Population}{state population.}
@@ -20,7 +21,8 @@
 \item{Arson}{number of reported cases of arsons.}
 \item{State}{name of the state for which numbers are reported.}
 \item{Year}{year of the reporting.}
-}}
+}
+}
 \usage{
 cities
 }

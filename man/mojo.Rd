@@ -4,7 +4,9 @@
 \name{mojo}
 \alias{mojo}
 \title{Box office data from the Mojo website}
-\format{A data frame with 31718 rows and 15 variables.}
+\format{
+A data frame with 31718 rows and 15 variables.
+}
 \usage{
 data(mojo)
 }
@@ -20,7 +22,7 @@ Sep 10 2018.
 \item Title name of the movie
 \item Studio name of the producing studio
 \item Weekend Gross weekend box office gross in US dollars
-\item `% Change`` percent change in weekend gross from last week
+\item `\% Change`` percent change in weekend gross from last week
 \item Theater Count number of movie theaters the movie is being shown
 \item Theater Change change in the number of theaters the movie was shown
 \item Average average gross per theater

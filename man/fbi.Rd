@@ -4,7 +4,8 @@
 \name{fbi}
 \alias{fbi}
 \title{Numbers of crimes by state}
-\format{A data frame with 23672 rows and 7 variables:
+\format{
+A data frame with 23672 rows and 7 variables:
 \describe{
 \item{State}{name of the state for which numbers are reported.}
 \item{Abb}{two letter state abbreviation. }
@@ -13,7 +14,8 @@
 \item{Type}{type of crime.}
 \item{Count}{number of reported crimes.}
 \item{Violent.crime}{logical value: is this crime against a person?.}
-}}
+}
+}
 \usage{
 fbi
 }

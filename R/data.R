@@ -88,13 +88,23 @@
 #'  \item sex. sex: female, male.
 #'  \item polviews. from extremely conservative to extremely liberal.
 #'  \item partyid. party identification: strong republican, not str republican, ind near rep, independent, ind near dem, not str democrat, strong democrat, other party.
-#'  \item wtssall. probability weight. 0.39--8.74
+#'  \item wtssall. probability weight. applicable to years up to 2018
+#'  \item wtssnr. probability weight. applicable to years from 2004
 #' }
 #'
 #' @keywords datasets
 #' @name happy
 #' @usage data(happy)
-#' @format A data frame with 62466 rows and 11 variables
+#' @format A data frame with 68846 rows and 12 variables
+#' @examples 
+#' library(dplyr)
+#' library(ggplot2)
+#' happy %>% 
+#'   filter(!is.na(happy), !is.na(sex)) %>%
+#'   ggplot(aes(x = factor(year), fill = happy)) + 
+#'     geom_bar(position = "fill") +
+#'     facet_grid(sex~.) +
+#'     scale_fill_brewer(palette="Greens")
 "happy"
 
 #' Box office data

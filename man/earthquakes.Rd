@@ -4,7 +4,9 @@
 \name{earthquakes}
 \alias{earthquakes}
 \title{Earthquake data}
-\format{A data frame with 22 variables}
+\format{
+A data frame with 22 variables
+}
 \usage{
 data(earthquakes)
 }

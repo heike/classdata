@@ -4,7 +4,9 @@
 \name{box}
 \alias{box}
 \title{Box office data}
-\format{A data frame with 32885 rows and 11 variables}
+\format{
+A data frame with 32885 rows and 11 variables
+}
 \usage{
 data(box)
 }

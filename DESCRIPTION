@@ -5,7 +5,7 @@ Description: Data sets used for work in some of the classes taught at Iowa State
 Authors@R: 
     person("Heike", "Hofmann", "", "hofmann@iastate.edu", c("aut", "cre"))
 Depends:
-    R (>= 3.1)
+    R (>= 3.5)
 Suggests:
     ggplot2,
     dplyr
@@ -13,6 +13,6 @@ License: GPL-2 | file LICENSE
 LazyData: true
 Collate: 
     'data.R'
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1
 Roxygen: list(markdown = TRUE)
 Encoding: UTF-8

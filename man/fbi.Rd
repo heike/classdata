@@ -5,24 +5,25 @@
 \alias{fbi}
 \title{Numbers of crimes by state}
 \format{
-A data frame with 24088 rows and 7 variables:
+A data frame with 19476 rows and 8 variables:
 \describe{
-\item{State}{name of the state for which numbers are reported.}
-\item{Abb}{two letter state abbreviation. }
-\item{Year}{year of the reporting.}
-\item{Population}{state population.}
-\item{Type}{type of crime.}
-\item{Count}{number of reported crimes.}
-\item{Violent.crime}{logical value: is this crime against a person?.}
+\item{state_id}{id for each state. }
+\item{state_abbr}{two letter state abbreviation. }
+\item{year}{year of the reporting.}
+\item{population}{state population.}
+\item{type}{type of crime.}
+\item{count}{number of reported crimes.}
+\item{violent_crime}{logical value: is this crime against a person?.}
 }
 }
 \usage{
 fbi
 }
 \description{
-A dataset containing the number of property and violent crimes across the United States from 1960 to 2017.
-The data  from 1960 to 2014 was made available by the FBI in the Uniform Crime Reporting Statistics (UCR) at \url{https://www.ucrdatatool.gov/index.cfm}.
-From 2014-2019 the data is made available as part of Excel tables at \url{https://ucr.fbi.gov/crime-in-the-u.s/}.
+A dataset containing the number of property and violent crimes across the
+United States from about 1980 to 2020.
+The data was acquired through the API for the FBI's Crime Data Explorer
+at \url{https://crime-data-explorer.fr.cloud.gov/pages/home}.
 The variables are as follows (more detail on the FBI website):
 }
 \keyword{datasets}

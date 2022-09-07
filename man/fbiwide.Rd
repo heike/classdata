@@ -5,27 +5,33 @@
 \alias{fbiwide}
 \title{Numbers of crimes by state}
 \format{
-A data frame with 3011 rows and 12 variables:
+A data frame with 2164 rows and 16 variables:
 \describe{
-\item{State}{name of the state for which numbers are reported.}
-\item{Abb}{two letter state abbreviation. }
-\item{Year}{year of the reporting.}
-\item{Population}{state population.}
-\item{Aggravated.assault}{number of reported aggravated assaults.}
-\item{Burglary}{number of reported burglaries.}
-\item{Larceny.theft}{number of reported larceny thefts.}
-\item{Legacy.rape}{number of reported rapes before 2013. The definition of rape was updated in 2012 and reported afterwards (see below).}
-\item{Motor.vehicle.theft}{number of reported motor vehicle thefts.}
-\item{Murder}{number of reported murders.}
-\item{Rape}{number of reported rapes using the definition of 2012.}
-\item{Robbery}{number of reported robberies.}
+\item{state}{name of the state for which numbers are reported.}
+\item{state_id}{id for each state. }
+\item{state_abbr}{two letter state abbreviation. }
+\item{year}{year of the reporting.}
+\item{population}{state population.}
+\item{violent_crime}{number of violent crimes. This number should be the sum of the next five variables.}
+\item{homicide}{number of reported murders.}
+\item{rape_legacy}{number of reported rapes before 2013. The definition of rape was updated in 2012 and reported afterwards as \code{rape_revised}.}
+\item{rape_revised}{number of reported rapes using the definition of 2012.}
+\item{robbery}{number of reported robberies.}
+\item{aggravated_assaults}{number of reported aggravated assaults.}
+\item{property_crime}{number of property crimes. This number should be the sum of the next four variables.}
+\item{burglary}{number of reported burglaries.}
+\item{larceny}{number of reported larceny thefts.}
+\item{motor_vehicle_theft}{number of reported motor vehicle thefts.}
+\item{arson}{number of reported incidents of arson.}
 }
 }
 \usage{
 fbiwide
 }
 \description{
-A dataset containing the number of property and violent crimes across the United States from 1960 to 2019.
-The data was made available by the FBI in the Uniform Crime Reporting Statistics (UCR) at \url{https://www.ucrdatatool.gov/index.cfm}. The variables are as follows (more detail on the FBI website):
+A dataset containing the number of property and violent crimes across the
+United States as reported through the API for the FBI's Crime Data Explorer
+at \url{https://crime-data-explorer.fr.cloud.gov/pages/home}.
+The variables are as follows (more detail on the FBI website):
 }
 \keyword{datasets}

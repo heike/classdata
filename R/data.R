@@ -1,10 +1,58 @@
 #' Numbers of crimes by state
 #'
+#' A dataset containing the number of property and violent crimes across the 
+#' United States from about 1980 to 2020. 
+#' The data was acquired through the API for the FBI's Crime Data Explorer 
+#' at \url{https://crime-data-explorer.fr.cloud.gov/pages/home}. 
+#' The variables are as follows (more detail on the FBI website):
+#' @format A data frame with 19476 rows and 8 variables:
+#' \describe{
+#'   \item{state_id}{id for each state. }
+#'   \item{state_abbr}{two letter state abbreviation. }
+#'   \item{year}{year of the reporting.}
+#'   \item{population}{state population.}
+#'   \item{type}{type of crime.}
+#'   \item{count}{number of reported crimes.}
+#'   \item{violent_crime}{logical value: is this crime against a person?.}
+#' }
+#' @keywords datasets
+"fbi"
+
+#' Numbers of crimes by state
+#'
+#' A dataset containing the number of property and violent crimes across the 
+#' United States as reported through the API for the FBI's Crime Data Explorer 
+#' at \url{https://crime-data-explorer.fr.cloud.gov/pages/home}. 
+#' The variables are as follows (more detail on the FBI website):
+#' @format A data frame with 2164 rows and 16 variables:
+#' \describe{
+#'   \item{state}{name of the state for which numbers are reported.}
+#'   \item{state_id}{id for each state. }
+#'   \item{state_abbr}{two letter state abbreviation. }
+#'   \item{year}{year of the reporting.}
+#'   \item{population}{state population.}
+#'   \item{violent_crime}{number of violent crimes. This number should be the sum of the next five variables.}
+#'   \item{homicide}{number of reported murders.}
+#'   \item{rape_legacy}{number of reported rapes before 2013. The definition of rape was updated in 2012 and reported afterwards as `rape_revised`.}
+#'   \item{rape_revised}{number of reported rapes using the definition of 2012.}
+#'   \item{robbery}{number of reported robberies.}
+#'   \item{aggravated_assaults}{number of reported aggravated assaults.}
+#'   \item{property_crime}{number of property crimes. This number should be the sum of the next four variables.}
+#'   \item{burglary}{number of reported burglaries.}
+#'   \item{larceny}{number of reported larceny thefts.}
+#'   \item{motor_vehicle_theft}{number of reported motor vehicle thefts.}
+#'   \item{arson}{number of reported incidents of arson.}
+#' }
+#' @keywords datasets
+"fbiwide"
+
+#' Numbers of crimes by state
+#'
 #' A dataset containing the number of property and violent crimes across the United States from 1960 to 2017. 
 #' The data  from 1960 to 2014 was made available by the FBI in the Uniform Crime Reporting Statistics (UCR) at \url{https://www.ucrdatatool.gov/index.cfm}. 
 #' From 2014-2019 the data is made available as part of Excel tables at \url{https://ucr.fbi.gov/crime-in-the-u.s/}.
+#' This dataset is  now superceded by `fbi`.
 #' The variables are as follows (more detail on the FBI website):
-#'
 #' @format A data frame with 24088 rows and 7 variables:
 #' \describe{
 #'   \item{State}{name of the state for which numbers are reported.}
@@ -16,13 +64,13 @@
 #'   \item{Violent.crime}{logical value: is this crime against a person?.}
 #' }
 #' @keywords datasets
-"fbi"
+"fbi.v1"
 
 #' Numbers of crimes by state
 #'
 #' A dataset containing the number of property and violent crimes across the United States from 1960 to 2019. 
 #' The data was made available by the FBI in the Uniform Crime Reporting Statistics (UCR) at \url{https://www.ucrdatatool.gov/index.cfm}. The variables are as follows (more detail on the FBI website):
-#'
+#' This dataset is  now superceded by `fbiwide`.
 #' @format A data frame with 3011 rows and 12 variables:
 #' \describe{
 #'   \item{State}{name of the state for which numbers are reported.}
@@ -39,7 +87,7 @@
 #'   \item{Robbery}{number of reported robberies.}
 #' }
 #' @keywords datasets
-"fbiwide"
+"fbiwide.v1"
 
 #' Numbers of crimes by city
 #'

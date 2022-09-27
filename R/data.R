@@ -1,3 +1,32 @@
+#' Ames housing data 2017 to 2022
+#'
+#' A dataset containing details on residential sales in Ames since Jan 1 2017.
+#' This data is publicly available through the Ames Assessor at 
+#' \url{https://www.cityofames.org/government/departments-divisions-a-h/city-assessor/sales}. 
+#' The variables are as follows (more detail on the Ames website):
+#' @format A data frame with 6935 rows and 16 variables:
+#' \describe{
+#'   \item{Parcel ID}{character with ID. }
+#'   \item{Address}{property address in Ames, IA. }
+#'   \item{Style}{factor variable detailing the type of housing.}
+#'   \item{Occupancy}{factor variable of type of housing.}
+#'   \item{Sale  Date}{date of sale.}
+#'   \item{Sale  Price}{sales price (in US dollar).}
+#'   \item{Multi  Sale}{logical value: was this sale part of a package?}
+#'   \item{YearBuilt}{integer value: year in which the house was built.}
+#'   \item{Acres}{acres of the lot.}
+#'   \item{TotalLivingArea (sf)}{total living area in square feet.}
+#'   \item{Bedrooms}{number of bedrooms.}
+#'   \item{FinishedBsmtArea (sf)}{total area of the finished basement in square feet.}
+#'   \item{LotArea(sf)}{total lot area in square feet.}
+#'   \item{AC}{logical value: does the property have an AC?}
+#'   \item{FirePlace}{logical value: does the property have an fireplace?}
+#'   \item{Neighborhood}{factor variable - levels indicate neighborhood area in Ames.}
+#' }
+#' @keywords datasets
+"ames"
+
+
 #' Numbers of crimes by state
 #'
 #' A dataset containing the number of property and violent crimes across the 

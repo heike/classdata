@@ -10,9 +10,9 @@
 #'   \item{Address}{property address in Ames, IA. }
 #'   \item{Style}{factor variable detailing the type of housing.}
 #'   \item{Occupancy}{factor variable of type of housing.}
-#'   \item{Sale  Date}{date of sale.}
-#'   \item{Sale  Price}{sales price (in US dollar).}
-#'   \item{Multi  Sale}{logical value: was this sale part of a package?}
+#'   \item{Sale Date}{date of sale.}
+#'   \item{Sale Price}{sales price (in US dollar).}
+#'   \item{Multi Sale}{logical value: was this sale part of a package?}
 #'   \item{YearBuilt}{integer value: year in which the house was built.}
 #'   \item{Acres}{acres of the lot.}
 #'   \item{TotalLivingArea (sf)}{total living area in square feet.}

@@ -188,7 +188,7 @@
 #'
 #' The data contains weekly box office numbers as published on the website 
 #' https://www.the-numbers.com/weekly-box-office-chart scraped on 
-#' Oct 16 2019.
+#' Nov 3 2022.
 #'
 #' \itemize{
 #'  \item Rank current rank of the movie according to gross box office
@@ -207,7 +207,7 @@
 #' @keywords datasets
 #' @name box
 #' @usage data(box)
-#' @format A data frame with 32885 rows and 11 variables
+#' @format A data frame with 46497 rows and 11 variables
 "box"
 
 

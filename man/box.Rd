@@ -5,7 +5,7 @@
 \alias{box}
 \title{Box office data}
 \format{
-A data frame with 32885 rows and 11 variables
+A data frame with 46497 rows and 11 variables
 }
 \usage{
 data(box)
@@ -13,7 +13,7 @@ data(box)
 \description{
 The data contains weekly box office numbers as published on the website
 https://www.the-numbers.com/weekly-box-office-chart scraped on
-Oct 16 2019.
+Nov 3 2022.
 }
 \details{
 \itemize{

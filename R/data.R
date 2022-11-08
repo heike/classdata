@@ -213,7 +213,8 @@
 
 #' Movie budget data
 #'
-#' The data contains movie budgets and box office gross for the 5000 top grossing movies (as of May 13 2018) published 
+#' The data contains movie budgets and box office gross (as much as they are known)
+#' for about 6000 movies (as of Nov 8 2022) published 
 #' on https://www.the-numbers.com/movie/budgets/all/1
 #'
 #' \itemize{
@@ -227,7 +228,7 @@
 #' @keywords datasets
 #' @name budget
 #' @usage data(budget)
-#' @format A data frame with 5855 rows and 5 variables
+#' @format A data frame with 6341 rows and 5 variables
 "budget"
 
 

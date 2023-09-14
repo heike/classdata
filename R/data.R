@@ -1,9 +1,9 @@
 #' Ames housing data 2017 to 2022
 #'
-#' A dataset containing details on residential sales in Ames since Jan 1 2017.
+#' A dataset containing details on residential sales in Ames between Jan 1 2017 and Aug 31 2022.
 #' This data is publicly available through the Ames Assessor at 
 #' \url{https://www.cityofames.org/government/departments-divisions-a-h/city-assessor/sales}. 
-#' The variables are as follows (more detail on the Ames website):
+#' The variables are as follows (more details can be found on the Ames website):
 #' @format A data frame with 6935 rows and 16 variables:
 #' \describe{
 #'   \item{Parcel ID}{character with ID. }
@@ -32,7 +32,7 @@
 #' A dataset containing the number of property and violent crimes across the 
 #' United States from about 1980 to 2020. 
 #' The data was acquired through the API for the FBI's Crime Data Explorer 
-#' at \url{https://crime-data-explorer.fr.cloud.gov/pages/home}. 
+#' at \url{https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend}. 
 #' The variables are as follows (more detail on the FBI website):
 #' @format A data frame with 19476 rows and 8 variables:
 #' \describe{

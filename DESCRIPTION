@@ -1,7 +1,7 @@
 Package: classdata
-Version: 0.0.1
-Title: Data Used in Course Work
-Description: Data sets used for work in some of the classes taught at Iowa State.
+Version: 0.0.2
+Title: Real-Life Data Used in Course Work
+Description: Data sets used for teaching statistical computing skills on real-life data sets with real-life problems - in a somewhat manageable format.
 Authors@R: 
     person("Heike", "Hofmann", "", "hofmann@iastate.edu", c("aut", "cre"))
 Depends:
@@ -13,6 +13,6 @@ License: CC BY 4.0
 LazyData: true
 Collate: 
     'data.R'
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Roxygen: list(markdown = TRUE)
 Encoding: UTF-8

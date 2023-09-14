@@ -23,7 +23,7 @@ fbi
 A dataset containing the number of property and violent crimes across the
 United States from about 1980 to 2020.
 The data was acquired through the API for the FBI's Crime Data Explorer
-at \url{https://crime-data-explorer.fr.cloud.gov/pages/home}.
+at \url{https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/explorer/crime/crime-trend}.
 The variables are as follows (more detail on the FBI website):
 }
 \keyword{datasets}

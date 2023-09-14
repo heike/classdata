@@ -7,10 +7,16 @@
     <loc>/LICENSE-text.html</loc>
   </url>
   <url>
+    <loc>/LICENSE.html</loc>
+  </url>
+  <url>
     <loc>/authors.html</loc>
   </url>
   <url>
     <loc>/index.html</loc>
+  </url>
+  <url>
+    <loc>/reference/ames.html</loc>
   </url>
   <url>
     <loc>/reference/box.html</loc>
@@ -28,7 +34,13 @@
     <loc>/reference/fbi.html</loc>
   </url>
   <url>
+    <loc>/reference/fbi.v1.html</loc>
+  </url>
+  <url>
     <loc>/reference/fbiwide.html</loc>
+  </url>
+  <url>
+    <loc>/reference/fbiwide.v1.html</loc>
   </url>
   <url>
     <loc>/reference/happy.html</loc>

@@ -29,9 +29,9 @@ A data frame with 6935 rows and 16 variables:
 ames
 }
 \description{
-A dataset containing details on residential sales in Ames since Jan 1 2017.
+A dataset containing details on residential sales in Ames between Jan 1 2017 and Aug 31 2022.
 This data is publicly available through the Ames Assessor at
 \url{https://www.cityofames.org/government/departments-divisions-a-h/city-assessor/sales}.
-The variables are as follows (more detail on the Ames website):
+The variables are as follows (more details can be found on the Ames website):
 }
 \keyword{datasets}

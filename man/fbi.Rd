@@ -7,6 +7,7 @@
 \format{
 A data frame with 19476 rows and 8 variables:
 \describe{
+\item{state}{name of the state for which numbers are reported.}
 \item{state_id}{id for each state. }
 \item{state_abbr}{two letter state abbreviation. }
 \item{year}{year of the reporting.}

@@ -36,6 +36,7 @@
 #' The variables are as follows (more detail on the FBI website):
 #' @format A data frame with 19476 rows and 8 variables:
 #' \describe{
+#'   \item{state}{name of the state for which numbers are reported.}
 #'   \item{state_id}{id for each state. }
 #'   \item{state_abbr}{two letter state abbreviation. }
 #'   \item{year}{year of the reporting.}
@@ -117,6 +118,96 @@
 #' }
 #' @keywords datasets
 "fbiwide.v1"
+
+
+#' Numbers of crimes by state and source
+#'
+#' A dataset containing the state-wide counts of offenses for a selected number of crimes since 1979
+#' as reported through the API for the FBI's Crime Data Explorer 
+#' at \url{https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/docApi}. 
+#' Last updated: Sep 20 2023<br>
+#' The variables are as follows (more detail on the FBI website):
+#' @format A tibble with 26520 rows and 12 columns
+#' \describe{
+#'   \item{state}{name of the state for which numbers are reported.}
+#'   \item{state_id}{id for each state. }
+#'   \item{state_abbr}{two letter state abbreviation. }
+#'   \item{year}{year of the reporting.}
+#'   \item{population}{state population.}
+#'   \item{type}{type of crime.}
+#'   \item{count}{number of reported offenses.}
+#'   \item{total_agency_count}{total number of crime-solving agencies in the state.}
+#'   \item{agency_submitting}{number of agencies who reported data.}
+#'   \item{population_covered}{percent of the state's population covered by reporting agencies.}
+#'   \item{source}{source of the estimate: SRS (standard reporting system) or 
+#'                 NIBRS (national incidence based reporting system)}
+#' }
+#' @keywords datasets
+#' @examples
+#' # example code
+#' library(tidyverse)
+#' 
+#' # compliance to report to NIBRS varies drastically by state
+#' fbi.v2 %>% 
+#'   ggplot(aes(x = year, y = agency_submitting/total_agency_count*100)) + 
+#'     geom_point(aes(colour = source)) + 
+#'     facet_wrap(~state, scales="free_y")
+#'
+#' # population size is related to compliance
+#' fbi.v2 %>% 
+#'   filter(year==2021) %>%
+#'   ggplot(aes(x = population, y = agency_submitting/total_agency_count*100)) + 
+#'     geom_point() +
+#'     geom_text(aes(label=state_abbr), 
+#'               nudge_y = 3,
+#'               data = fbi.v2 %>% 
+#'                      filter(year==2021, 
+#'                             agency_submitting/total_agency_count*100 < 50 | 
+#'                             population > 2e+07) %>% unique())
+#'     
+#' # comparison of SRS and NIBRS counts in Iowa across all types of offenses
+#' fbi.v2 %>% filter(state_abbr=="IA") %>%  
+#'   ggplot(aes(x = year, y = count)) + 
+#'     geom_point(aes(colour = source)) + 
+#'     facet_wrap(~type, scales="free_y")
+#'
+#' # comparison of SRS and NIBRS counts in New York across all types of offenses
+#' fbi.v2 %>% filter(state_abbr=="NY") %>%  
+#'   ggplot(aes(x = year, y = count)) + 
+#'     geom_point(aes(colour = source)) + 
+#'     facet_wrap(~type, scales="free_y")
+"fbi.v2"
+
+#' Numbers of crimes by state and source - wide format
+#'
+#' A dataset containing the number of property and violent crimes across the 
+#' United States as reported through the API for the FBI's Crime Data Explorer 
+#' at \url{https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/docApi}. 
+#' Last updated: Sep 20 2023<br>
+#' The variables are as follows (more detail on the FBI website):
+#' @format A tibble with 9139 rows and 17 columns
+#' \describe{
+#'   \item{state}{name of the state for which numbers are reported.}
+#'   \item{state_id}{id for each state. }
+#'   \item{state_abbr}{two letter state abbreviation. }
+#'   \item{year}{year of the reporting.}
+#'   \item{population}{state population.}
+#'   \item{total_agency_count}{number of agencies in the state.}
+#'   \item{agency_submitting}{number of agencies involved in reporting to the system.}
+#'   \item{source}{source of the estimate: SRS or NIBRS.}
+#'   \item{homicide}{number of reported murders.}
+#'   \item{rape_legacy}{number of reported rapes before 2013. The definition of rape was updated in 2012 and reported afterwards as `rape_revised`.}
+#'   \item{rape_revised}{number of reported rapes using the definition of 2012.}
+#'   \item{robbery}{number of reported robberies.}
+#'   \item{aggravated_assaults}{number of reported aggravated assaults.}
+#'   \item{property_crime}{number of property crimes. This number should be the sum of the next four variables.}
+#'   \item{burglary}{number of reported burglaries.}
+#'   \item{larceny}{number of reported larceny thefts.}
+#'   \item{motor_vehicle_theft}{number of reported motor vehicle thefts.}
+#'   \item{arson}{number of reported incidents of arson.}
+#' }
+#' @keywords datasets
+"fbiwide.v2"
 
 #' Numbers of crimes by city
 #'

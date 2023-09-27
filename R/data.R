@@ -239,7 +239,7 @@
 #'
 #' The data is a small sample of variables related to happiness from the
 #' general social survey (GSS). The GSS is a yearly cross-sectional survey of
-#' Americans, run since 1972. We combine data for more than 25 years to yield over 60 thousand
+#' Americans, run since 1972. We combine data from more than 25 samples to yield over 70 thousand
 #' observations, and of the over 5,000 variables, we select some variables that are related to
 #' happiness:
 #'
@@ -263,7 +263,7 @@
 #' @keywords datasets
 #' @name happy
 #' @usage data(happy)
-#' @format A data frame with 68846 rows and 12 variables
+#' @format A data frame with 72390 rows and 12 variables
 #' @examples 
 #' library(dplyr)
 #' library(ggplot2)
